@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		376BC4542599CE810093119F /* 42483-blinking-santa.json in Resources */ = {isa = PBXBuildFile; fileRef = 376BC4532599CE810093119F /* 42483-blinking-santa.json */; };
 		3775F92C2599CB5400950557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3775F92B2599CB5400950557 /* AppDelegate.swift */; };
 		3775F92E2599CB5400950557 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3775F92D2599CB5400950557 /* SceneDelegate.swift */; };
-		3775F9302599CB5400950557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3775F92F2599CB5400950557 /* ViewController.swift */; };
+		3775F9302599CB5400950557 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3775F92F2599CB5400950557 /* MainViewController.swift */; };
 		3775F9332599CB5400950557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3775F9312599CB5400950557 /* Main.storyboard */; };
 		3775F9352599CB5400950557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3775F9342599CB5400950557 /* Assets.xcassets */; };
 		3775F9382599CB5400950557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3775F9362599CB5400950557 /* LaunchScreen.storyboard */; };
+		77BF09704ABC9B73E63768D9 /* Pods_NiceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE89673E724ACC92193FCEA /* Pods_NiceApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0146DF32124F64F804E58A7E /* Pods-NiceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceApp.debug.xcconfig"; path = "Target Support Files/Pods-NiceApp/Pods-NiceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		376BC4532599CE810093119F /* 42483-blinking-santa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "42483-blinking-santa.json"; sourceTree = "<group>"; };
 		3775F9282599CB5400950557 /* NiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3775F92B2599CB5400950557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3775F92D2599CB5400950557 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3775F92F2599CB5400950557 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3775F92F2599CB5400950557 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3775F9322599CB5400950557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3775F9342599CB5400950557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3775F9372599CB5400950557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3775F9392599CB5400950557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE89673E724ACC92193FCEA /* Pods_NiceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8522EC3545ED07B3814E813 /* Pods-NiceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceApp.release.xcconfig"; path = "Target Support Files/Pods-NiceApp/Pods-NiceApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77BF09704ABC9B73E63768D9 /* Pods_NiceApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				3775F92A2599CB5400950557 /* NiceApp */,
 				3775F9292599CB5400950557 /* Products */,
+				981387B67046361503E7892A /* Pods */,
+				E9881B8FA6A9728F0DA11EBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +65,41 @@
 		3775F92A2599CB5400950557 /* NiceApp */ = {
 			isa = PBXGroup;
 			children = (
+				376BC4532599CE810093119F /* 42483-blinking-santa.json */,
+				3775F9402599CB6B00950557 /* ViewControllers */,
 				3775F92B2599CB5400950557 /* AppDelegate.swift */,
 				3775F92D2599CB5400950557 /* SceneDelegate.swift */,
-				3775F92F2599CB5400950557 /* ViewController.swift */,
 				3775F9312599CB5400950557 /* Main.storyboard */,
 				3775F9342599CB5400950557 /* Assets.xcassets */,
 				3775F9362599CB5400950557 /* LaunchScreen.storyboard */,
 				3775F9392599CB5400950557 /* Info.plist */,
 			);
 			path = NiceApp;
+			sourceTree = "<group>";
+		};
+		3775F9402599CB6B00950557 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3775F92F2599CB5400950557 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		981387B67046361503E7892A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0146DF32124F64F804E58A7E /* Pods-NiceApp.debug.xcconfig */,
+				F8522EC3545ED07B3814E813 /* Pods-NiceApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9881B8FA6A9728F0DA11EBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EE89673E724ACC92193FCEA /* Pods_NiceApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3775F93C2599CB5400950557 /* Build configuration list for PBXNativeTarget "NiceApp" */;
 			buildPhases = (
+				EBBF55304E99E659DE655129 /* [CP] Check Pods Manifest.lock */,
 				3775F9242599CB5300950557 /* Sources */,
 				3775F9252599CB5300950557 /* Frameworks */,
 				3775F9262599CB5300950557 /* Resources */,
+				955BE5F3A8865E0A83F85BE8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3775F9382599CB5400950557 /* LaunchScreen.storyboard in Resources */,
+				376BC4542599CE810093119F /* 42483-blinking-santa.json in Resources */,
 				3775F9352599CB5400950557 /* Assets.xcassets in Resources */,
 				3775F9332599CB5400950557 /* Main.storyboard in Resources */,
 			);
@@ -132,12 +170,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		955BE5F3A8865E0A83F85BE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceApp/Pods-NiceApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceApp/Pods-NiceApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceApp/Pods-NiceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBBF55304E99E659DE655129 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3775F9242599CB5300950557 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3775F9302599CB5400950557 /* ViewController.swift in Sources */,
+				3775F9302599CB5400950557 /* MainViewController.swift in Sources */,
 				3775F92C2599CB5400950557 /* AppDelegate.swift in Sources */,
 				3775F92E2599CB5400950557 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +363,7 @@
 		};
 		3775F93D2599CB5400950557 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0146DF32124F64F804E58A7E /* Pods-NiceApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +382,7 @@
 		};
 		3775F93E2599CB5400950557 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8522EC3545ED07B3814E813 /* Pods-NiceApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
